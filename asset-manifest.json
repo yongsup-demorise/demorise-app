@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "/demorise-app/static/css/main.13807ad8.css",
-    "main.js": "/demorise-app/static/js/main.ffb9523c.js",
-    "static/js/453.efb9c0d5.chunk.js": "/demorise-app/static/js/453.efb9c0d5.chunk.js",
+    "main.css": "/demorise-app/static/css/main.e6c13ad2.css",
+    "main.js": "/demorise-app/static/js/main.b1540683.js",
     "index.html": "/demorise-app/index.html",
-    "main.13807ad8.css.map": "/demorise-app/static/css/main.13807ad8.css.map",
-    "main.ffb9523c.js.map": "/demorise-app/static/js/main.ffb9523c.js.map",
-    "453.efb9c0d5.chunk.js.map": "/demorise-app/static/js/453.efb9c0d5.chunk.js.map"
+    "main.e6c13ad2.css.map": "/demorise-app/static/css/main.e6c13ad2.css.map",
+    "main.b1540683.js.map": "/demorise-app/static/js/main.b1540683.js.map"
   },
   "entrypoints": [
-    "static/css/main.13807ad8.css",
-    "static/js/main.ffb9523c.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.b1540683.js"
   ]
 }
