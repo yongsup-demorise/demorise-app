@@ -1,38 +1,57 @@
+/* 전체 배경 */
+body {
+  margin: 0;
+  padding: 0;
+  background: #f5f7fa;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+/* 앱 전체 컨테이너 */
 .App {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 카드 박스 */
+.card {
+  background: #ffffff;
+  width: 380px;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* 제목 */
+.card-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 16px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* 설명 텍스트 */
+.card-desc {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 32px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* 버튼 */
+.card-btn {
+  padding: 14px 20px;
+  font-size: 17px;
+  background: #4CAF50;
   color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-btn:hover {
+  background: #43a047;
+  transform: translateY(-2px);
 }
